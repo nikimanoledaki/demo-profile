@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-profile-values
+  namespace: default
+data:
+  fluent-bit: |
+    replicaCount: 3
+  nginx-server: |
+    service:
+      type: ClusterIP

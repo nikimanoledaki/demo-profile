@@ -4,8 +4,6 @@ metadata:
   name: my-profile-values
   namespace: default
 data:
-  fluent-bit: |
-    replicaCount: 3
-  nginx-server: |
+  bitnami-nginx: |
     service:
-      type: ClusterIP
+      type: NodePort

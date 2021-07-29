@@ -8,5 +8,5 @@ spec:
   source:
     branch: main
     path: .
-    url: https://github.com/nikimanoledaki/demo-profile
+    url: https://www.github.com/nikimanoledaki/demo-profile
 status: {}

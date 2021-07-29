@@ -18,4 +18,7 @@ spec:
   - kind: ConfigMap
     name: pctl-profile-bitnami-nginx-defaultvalues
     valuesKey: default-values.yaml
+  - kind: ConfigMap
+    name: configmap.yaml
+    valuesKey: bitnami-nginx
 status: {}

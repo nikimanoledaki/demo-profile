@@ -1,0 +1,7 @@
+apiVersion: weave.works/v1alpha1
+kind: ProfileCatalogSource
+metadata:
+  name: nginx-catalog
+spec:
+  repositories:
+  - url: https://github.com/weaveworks/profiles-examples

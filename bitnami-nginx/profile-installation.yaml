@@ -1,0 +1,19 @@
+apiVersion: weave.works/v1alpha1
+kind: ProfileInstallation
+metadata:
+  creationTimestamp: null
+  name: pctl-profile
+  namespace: default
+spec:
+  catalog:
+    catalog: nginx-catalog
+    profile: bitnami-nginx
+    version: v0.0.2
+  gitRepository:
+    name: flux-system
+    namespace: flux-system
+  source:
+    path: bitnami-nginx
+    tag: bitnami-nginx/v0.0.2
+    url: https://github.com/weaveworks/profiles-examples
+status: {}

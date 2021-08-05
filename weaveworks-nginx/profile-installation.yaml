@@ -8,12 +8,12 @@ spec:
   catalog:
     catalog: nginx-catalog
     profile: weaveworks-nginx
-    version: v0.1.1
+    version: v0.1.0
   gitRepository:
     name: flux-system
     namespace: flux-system
   source:
     path: weaveworks-nginx
-    tag: weaveworks-nginx/v0.1.1
+    tag: weaveworks-nginx/v0.1.0
     url: https://github.com/weaveworks/profiles-examples
 status: {}
